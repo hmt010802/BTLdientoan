@@ -1,0 +1,30 @@
+.Checkout-popup {
+  display: flex;
+  flex-direction: column;
+}
+.checkout__header {
+  display: flex;
+  justify-content: center;
+}
+.pay-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pay-btn button {
+  margin-top: 10px;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  transition: 0.5;
+  color: white;
+}
+
+.pay-btn:active {
+  transform: translateY(-3px);
+}
